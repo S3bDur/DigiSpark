@@ -6,7 +6,7 @@ $h.BackgroundColor = 'DarkRed'
 $h.ForegroundColor = 'White'
 Clear-Host
 
-Write-Host 'SECURITY ALERT: UNTRUSTED USB DETECTED'
+Write-Host 'SECURITY ALERT: UNTRUSTED DEVICE DETECTED!!!'
 
 $s = New-Object -ComObject SAPI.SpVoice
 $s.Volume = 100
