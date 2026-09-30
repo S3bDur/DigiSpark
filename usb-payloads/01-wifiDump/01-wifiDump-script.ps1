@@ -1,8 +1,6 @@
-if (Test-Path "$env:OneDrive\Desktop") {
-    $D = "$env:OneDrive\Desktop"
-} else {
-    $D = "$env:USERPROFILE\Desktop"
-}
+$D = [Environment]::GetFolderPath([Environment+SpecialFolder]::Desktop)
+
+$outputFile = "$D\UhOhYouMessedUp.txt"
 
 $outputFile = "$D\UhOhYouMessedUp.txt"
 
