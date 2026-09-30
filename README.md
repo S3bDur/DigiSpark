@@ -2,7 +2,7 @@
 
 ## 1. Installation
 
-1. Download [Arduino IDE](https://www.arduino.cc/en/software/) (make sure to select the IDE version)
+1. Download [Arduino IDE](https://www.arduino.cc/en/software/) (Select the IDE version)
 2. Download [Digistump Drivers](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip)
 3. Unzip and run `Install Drivers.exe` ![installDrivers.png](images/installDrivers.png)
 
